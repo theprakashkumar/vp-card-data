@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "name": "Netflix",
+            "budget_name": "Movie Subscription",
+            "card_holder": "Ram",
+            "owner_id": 1,
+            "spent": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 1000,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "1 March 2023",
+            "limit": 100,
+            "status": "active"
+        },
+        {
+            "name": "Quickbook",
+            "card_holder": "Mohan",
+            "budget_name": "Software Subscription",
+            "owner_id": 2,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 1000,
+                "currency": "SGD"
+            },
+            "card_type": "Subscription",
+            "expiry": "1 March 2023",
+            "limit": 100,
+            "status": "active"
+        }
+  ]
+}
