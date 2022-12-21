@@ -2,7 +2,7 @@
     "data": [
         {
             "name": "Netflix",
-            "budget_name": "Movie Subscription",
+            "budget_name": "Entertainment",
             "card_holder": "Ram",
             "owner_id": 1,
             "spent": {
@@ -21,7 +21,7 @@
         {
             "name": "Quickbook",
             "card_holder": "Mohan",
-            "budget_name": "Software Subscription",
+            "budget_name": "Software",
             "owner_id": 2,
             "spent": {
                 "value": 0,
@@ -31,10 +31,514 @@
                 "value": 1000,
                 "currency": "SGD"
             },
-            "card_type": "Subscription",
+            "card_type": "subscription",
             "expiry": "1 March 2023",
             "limit": 100,
             "status": "active"
+        },
+        {
+            "name": "Hulu",
+            "card_holder": "Sohan",
+            "budget_name": "Entertainment",
+            "owner_id": 3,
+            "spent": {
+                "value": 150,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 30,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2022",
+            "limit": 180,
+            "status": "blocked"
+        },
+        {
+            "name": "Amazon Prime",
+            "card_holder": "Anish",
+            "budget_name": "Entertainment",
+            "owner_id": 4,
+            "spent": {
+                "value": 180,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "1 Apr 2023",
+            "limit": 180,
+            "status": "active"
+        },
+        {
+            "name": "Quickbooks",
+            "card_holder": "Ramu",
+            "budget_name": "Software",
+            "owner_id": 5,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 1000,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "9 Apr 2023",
+            "limit": 100,
+            "status": "active"
+        },
+        {
+            "name": "Notion",
+            "card_holder": "Ranjeet",
+            "budget_name": "Software",
+            "owner_id": 6,
+            "spent": {
+                "value": 110,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 30,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "1 Jan 2023",
+            "limit": 170,
+            "status": "active"
+        },
+        {
+            "name": "Google Doc",
+            "card_holder": "Mainak",
+            "budget_name": "Software",
+            "owner_id": 7,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 180,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "1 Jan 2023",
+            "limit": 100,
+            "status": "active"
+        },
+        {
+            "name": "Autox",
+            "card_holder": "Mainak",
+            "budget_name": "Magazine",
+            "owner_id": 7,
+            "spent": {
+                "value": 10,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 120,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "15 feb 2023",
+            "limit": 100,
+            "status": "active"
+        },
+        {
+            "name": "Autox",
+            "card_holder": "Ranjeet",
+            "budget_name": "Magazine",
+            "owner_id": 6,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "15 Oct 2023",
+            "limit": 150,
+            "status": "active"
+        },
+        {
+            "name": "Hotstar",
+            "card_holder": "Ranjeet",
+            "budget_name": "Entertainment",
+            "owner_id": 6,
+            "spent": {
+                "value": 148,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 30,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "15 Aug 2023",
+            "limit": 150,
+            "status": "active"
+        },
+        {
+            "name": "Netflix",
+            "card_holder": "Prakash",
+            "budget_name": "Entertainment",
+            "owner_id": 8,
+            "spent": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 120,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2022",
+            "limit": 150,
+            "status": "active"
+        },
+        {
+            "name": "Amazon Prime",
+            "card_holder": "Prakash",
+            "budget_name": "Entertainment",
+            "owner_id": 8,
+            "spent": {
+                "value": 150,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2022",
+            "limit": 150,
+            "status": "active"
+        },
+        {
+            "name": "Hotstar",
+            "card_holder": "Sohini",
+            "budget_name": "Entertainment",
+            "owner_id": 9,
+            "spent": {
+                "value": 170,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 50,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2024",
+            "limit": 150,
+            "status": "active"
+        },
+        {
+            "name": "Hulu",
+            "card_holder": "Amit",
+            "budget_name": "Entertainment",
+            "owner_id": 10,
+            "spent": {
+                "value": 120,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 50,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "3 Apr 2025",
+            "limit": 150,
+            "status": "blocked"
+        },
+        {
+            "name": "Notion",
+            "card_holder": "Prakash",
+            "budget_name": "software",
+            "owner_id": 8,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 50,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 May 2024",
+            "limit": 50,
+            "status": "blocked"
+        },
+        {
+            "name": "Quick Heal",
+            "card_holder": "Prakash",
+            "budget_name": "Software",
+            "owner_id": 8,
+            "spent": {
+                "value": 52,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2025",
+            "limit": 100,
+            "status": "active"
+        },
+        {
+            "name": "Bitwarden",
+            "card_holder": "Vikash",
+            "budget_name": "Software",
+            "owner_id": 11,
+            "spent": {
+                "value": 10,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 140,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "30 Apr 2023",
+            "limit": 160,
+            "status": "active"
+        },
+        {
+            "name": "Autox",
+            "card_holder": "Rohan",
+            "budget_name": "Magazine",
+            "owner_id": 12,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 130,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "30 Apr 2023",
+            "limit": 160,
+            "status": "active"
+        },
+        {
+            "name": "Notion",
+            "card_holder": "Rohan",
+            "budget_name": "miscellaneous",
+            "owner_id": 12,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 140,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "9 Apr 2025",
+            "limit": 160,
+            "status": "active"
+        },
+        {
+            "name": "Amazon Prime",
+            "card_holder": "Rohan",
+            "budget_name": "Entertainment",
+            "owner_id": 12,
+            "spent": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 100,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "28 Apr 2022",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "Quick Heal",
+            "card_holder": "Mainak",
+            "budget_name": "Software",
+            "owner_id": 7,
+            "spent": {
+                "value": 50,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 150,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "28 Sep 2028",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "Bitwarden",
+            "card_holder": "Mainak",
+            "budget_name": "software subscription",
+            "owner_id": 7,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "28 Apr 2025",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "LinkedIn",
+            "card_holder": "Mainak",
+            "budget_name": "Utility",
+            "owner_id": 7,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "28 Apr 2027",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "Jio Cinema",
+            "card_holder": "Mainak",
+            "budget_name": "Entertainment",
+            "owner_id": 7,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 180,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "28 Apr 2022",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "LinkedIn",
+            "card_holder": "Raj",
+            "budget_name": "Utility",
+            "owner_id": 13,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2023",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "Netflix",
+            "card_holder": "Raj",
+            "budget_name": "Entertainment",
+            "owner_id": 13,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2023",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "Hotstar",
+            "card_holder": "Raj",
+            "budget_name": "Entertainment",
+            "owner_id": 13,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "subscription",
+            "expiry": "30 Apr 2022",
+            "limit": 200,
+            "status": "blocked"
+        },
+        {
+            "name": "Hulu",
+            "card_holder": "Raj",
+            "budget_name": "Entertainment",
+            "owner_id": 13,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "30 Apr 2023",
+            "limit": 220,
+            "status": "active"
+        },
+        {
+            "name": "Github",
+            "card_holder": "Prakash",
+            "budget_name": "Utility",
+            "owner_id": 8,
+            "spent": {
+                "value": 0,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 200,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "29 Aug 2023",
+            "limit": 200,
+            "status": "active"
+        },
+        {
+            "name": "GitLab",
+            "card_holder": "Prakash",
+            "budget_name": "Utility",
+            "owner_id": 8,
+            "spent": {
+                "value": 20,
+                "currency": "SGD"
+            },
+            "available_to_spend": {
+                "value": 180,
+                "currency": "SGD"
+            },
+            "card_type": "burner",
+            "expiry": "3 jun 2022",
+            "limit": 210,
+            "status": "blocked"
         }
-  ]
+    ]
 }
